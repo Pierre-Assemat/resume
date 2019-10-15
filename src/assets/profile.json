@@ -1,0 +1,57 @@
+{
+  "name": "Pierre Assemat",
+  "contact": {
+    "email": "assematpierrecpe@gmail.com",
+    "phone": "+33 643054593",
+    "address": "22 rue eugène varlin, 75010 Paris"
+  },
+  "description": "Master degree in digital science, electronics & computing, specialised in robotics and web technologies",
+  "picture": "../assets/profile.png",
+  "languages": [
+    {
+      "country": "French",
+      "level": "Fluent",
+      "flag": "french-flag"
+    },
+    {
+      "country": "English",
+      "level": "C1",
+      "flag": "english-flag"
+    },
+    {
+      "country": "Spanish",
+      "level": "A2",
+      "flag": "spanish-flag"
+    }
+  ],
+  "skills": [
+    {
+      "title": "NodeJS",
+      "level": 5,
+      "levelMax": 5
+    },
+    {
+      "title": "AngularJS",
+      "level": 4,
+      "levelMax": 5
+    },
+    {
+      "title": "Python",
+      "level": 4,
+      "levelMax": 5
+    },
+    {
+      "title": "Java",
+      "level": 3,
+      "levelMax": 5
+    },
+    {
+      "title": "DeepLearning",
+      "level": 3,
+      "levelMax": 5
+    }
+  ],
+  "workExperiences": [],
+  "studies": [],
+  "hobbies": []
+}

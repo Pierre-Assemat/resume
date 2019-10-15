@@ -1,0 +1,32 @@
+@import '../../variables.scss';
+
+#resume {
+  height: 100%;
+}
+
+.left-column {
+  background-color: $green;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.right-column {
+  // border: solid 1px $grey;
+  color: $green;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.description {
+  padding: 10px 0;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+}
+
+.languages {
+  text-align: left;
+}

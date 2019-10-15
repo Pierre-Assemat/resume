@@ -1,0 +1,25 @@
+<div *ngIf="profile" id="resume" fxLayout="row">
+  <div class="left-column" fxFlex="40" fxLayout="column" fxLayoutAlign="space-between center">
+    <div>
+      <img class="profile-picture" [src]="profile.picture" alt="Profile face" height="180" width="180" />
+    </div>
+    <span class="title">{{ profile.name }}</span>
+    <!-- Description -->
+    <div *ngIf="profile.description" class="description">{{ profile.description }}</div>
+    <!-- Contact -->
+    <app-contact *ngIf="profile.contact" [contactInfo]="profile.contact"></app-contact>
+    <!-- Skills -->
+    <div class="skills">
+      <div class="subtitle">Skills</div>
+      <app-skill *ngFor="let skill of profile.skills" [skill]="skill"></app-skill>
+    </div>
+    <!-- Languages -->
+    <div class="languages">
+      <div class="subtitle">Languages</div>
+      <app-language *ngFor="let language of profile.languages" [language]="language"></app-language>
+    </div>
+  </div>
+  <div class="right-column" fxFlex>
+    TODO : detail
+  </div>
+</div>
