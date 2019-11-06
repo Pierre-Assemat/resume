@@ -33,6 +33,18 @@ body {
   margin-bottom: 5px;
 }
 
+.subtitle-small {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+// Materials Icons
+.mat-icon.icon {
+  width: unset;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
 // Country flags
 .french-flag {
   &::before {

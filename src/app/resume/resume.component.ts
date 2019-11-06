@@ -16,7 +16,6 @@ export class ResumeComponent implements OnInit {
   ngOnInit() {
     this.profileService.getProfile('profile').subscribe(profile => {
       this.profile = profile;
-      console.log(this.profile);
     });
   }
 }

@@ -13,9 +13,20 @@ import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 import { SkillComponent } from './skill/skill.component';
 import { LanguageComponent } from './language/language.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { StudyComponent } from './study/study.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ResumeComponent, ContactComponent, SkillComponent, LanguageComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    ResumeComponent,
+    ContactComponent,
+    SkillComponent,
+    LanguageComponent,
+    WorkExperienceComponent,
+    StudyComponent
+  ],
   imports: [BrowserModule, HttpClientModule, FlexLayoutModule, AppRoutingModule, RouterModule, BrowserAnimationsModule, MatIconModule],
   bootstrap: [AppComponent],
   entryComponents: [ResumeComponent]

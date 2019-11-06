@@ -1,0 +1,10 @@
+<div class="study">
+  <div class="study-title" fxLayout="row">
+    <div>
+      <span class="subtitle">{{ study.date }} - </span><span class="subtitle-small">{{ study.title }}</span>
+    </div>
+    <div *ngIf="study.logo.url" class="" fxLayoutAlign="center center">
+      <img [src]="study.logo.url" alt="company logo" [ngClass]="study.logo.class" width="90px" heigh="90px" />
+    </div>
+  </div>
+</div>
