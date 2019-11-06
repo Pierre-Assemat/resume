@@ -1,0 +1,117 @@
+{
+  "name": "Pierre Assemat",
+  "contact": {
+    "email": "assematpierrecpe@gmail.com",
+    "phone": "+33 643054593",
+    "address": "22 rue eugène varlin, 75010 Paris"
+  },
+  "description": "Master degree in digital science, electronics & computing, specialised in robotics and web technologies",
+  "picture": "../assets/profile-3.png",
+  "languages": [
+    {
+      "country": "French",
+      "level": "Fluent",
+      "flag": "french-flag"
+    },
+    {
+      "country": "English",
+      "level": "C1",
+      "flag": "english-flag"
+    },
+    {
+      "country": "Spanish",
+      "level": "A2",
+      "flag": "spanish-flag"
+    }
+  ],
+  "skills": [
+    {
+      "title": "NodeJS",
+      "level": 5,
+      "levelMax": 5
+    },
+    {
+      "title": "AngularJS",
+      "level": 4,
+      "levelMax": 5
+    },
+    {
+      "title": "Python",
+      "level": 4,
+      "levelMax": 5
+    },
+    {
+      "title": "Java",
+      "level": 3,
+      "levelMax": 5
+    },
+    {
+      "title": "DeepLearning",
+      "level": 3,
+      "levelMax": 5
+    }
+  ],
+  "workExperiences": [
+    {
+      "title": "Full Stack Software Engineer at K.Solutions Paris",
+      "date": "Septembre 2019",
+      "logo": { "url": "../assets/ksolutions-logo.png", "class": "small" },
+      "description": "Full stack software developper working in a small international team on several projects.",
+      "skills": ["AngularJS", "NodeJS backend", "Tracking with Google Analytics & Amplitude", "Agile method"]
+    },
+    {
+      "title": "Full Stack Software Engineer Intern at the Start Up K.Solutions Paris",
+      "date": "Feb-July 2019",
+      "logo": {},
+      "description": "",
+      "skills": []
+    },
+    {
+      "title": "Software Engineer Intern at Kitware Inc. USA",
+      "date": "2017-2018",
+      "logo": { "url": "../assets/kitware-logo.png", "class": "" },
+      "description": "1 year as a R&D web developper in the Data and Analytics team where I worked on several Open-Source projects",
+      "skills": [
+        "Python backend",
+        "BackboneJS, VueJs & Vuetify, es6",
+        "Setup configuration with Docker",
+        "Continous integration with CircleCI & TravisCI",
+        "Testing code with pytest & Ctest"
+      ]
+    }
+  ],
+  "studies": [
+    {
+      "title": "EPFL exchange program",
+      "date": "2018",
+      "logo": { "url": "../assets/epfl-logo.png", "class": "" },
+      "description": "Machine Learning, Intelligent Agents, Data Vizualisation, Mobile Robots, Energy Conversion and Renewable Energy, Financial Application of BlockChain",
+      "skills": []
+    },
+    {
+      "title": "Master degree computer science & electronics specialized in robotics at CPE Lyon",
+      "date": "2016-2019",
+      "logo": { "url": "../assets/cpe-logo.png", "class": "" },
+      "description": "Embedded System OOP (Java), Image Analysis (Matlab), Network (OSI, TCP/IP), Analog function, Sensor & Actuator, Web language (HTML5, CSS3, Javascript, PHP, SQL), 3D Game project (OpenGL & C++)",
+      "skills": []
+    },
+    {
+      "title": "Bachelor Degree in Electronics and Computer science at CPE Lyon",
+      "date": "2013-2016",
+      "logo": { "url": "", "class": "" },
+      "description": "",
+      "skills": []
+    }
+  ],
+  "hobbies": [],
+  "extras": {
+    "github": {
+      "logo": "../assets/github-logo.png",
+      "link": "https://github.com/Pierre-Assemat"
+    },
+    "linkedin": {
+      "logo": "https://img.icons8.com/color/48/000000/linkedin.png",
+      "link": "https://www.linkedin.com/in/pierre-assemat"
+    }
+  }
+}
